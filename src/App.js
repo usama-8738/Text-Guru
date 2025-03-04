@@ -1,5 +1,6 @@
 import "./App.css";
 import About from "./Components/About";
+import ContactUs from "./Components/ContactUs";
 import PrimaryNav from "./Components/PrimaryNav";
 import TextArea from "./Components/TextArea";
 import React, { useState } from "react";
@@ -61,6 +62,7 @@ function App() {
             }
           />
           <Route path="about" element={<About newColor={newColor}/>} />
+          <Route path="contactus" element={<ContactUs newColor={newColor}/>} />
         </Routes>
       </div>
     </Router>
