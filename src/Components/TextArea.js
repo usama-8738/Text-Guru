@@ -200,7 +200,7 @@ const TextArea = ({
       </p>
       <p>Estimated Reading Time: {readingTime} minutes</p>
       <p className="Counter">Text Preview</p>
-      <p>{text.length != 0 ? text : "Nothing to Preview"}</p>
+      <p>{text.length !== 0 ? text : "Nothing to Preview"}</p>
     </div>
   );
 };
