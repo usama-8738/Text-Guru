@@ -62,7 +62,7 @@ function App() {
             }
           />
           <Route path="about" element={<About newColor={newColor}/>} />
-          <Route path="contactus" element={<ContactUs newColor={newColor}/>} />
+          <Route path="contact" element={<ContactUs newColor={newColor}/>} />
         </Routes>
       </div>
     </Router>
